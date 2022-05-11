@@ -11,7 +11,7 @@ app.config['JSON_AS_ASCII'] = False
 #DataBase 정보
 db = pymysql.connect(host='localhost',port=3306,user='root',passwd='root',db='project_gsm',charset='utf8')
 #비밀키
-app.secret_key = 'GSM_FESTIVAL'
+app.secret_key = 'SECRET_KEY'
 #변수
 success = {'result' : 'true'}
 false = {'result' : 'false'}
